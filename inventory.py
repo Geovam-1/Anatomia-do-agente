@@ -1,3 +1,3 @@
 def apply_discount(price, percent):
     """Aplica um desconto percentual ao preço."""
-    return price - percent
+    return price * (1 - percent / 100)
